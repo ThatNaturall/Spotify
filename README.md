@@ -1,0 +1,1 @@
+I crafted a simple ETL pipeline utilizing Spotify csv file sourced from Kaggle. Leveraging Python, I developed a script that efficiently extracts, transforms, and loads the data into an SQL table hosted on Azure.
