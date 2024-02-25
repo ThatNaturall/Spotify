@@ -6,7 +6,7 @@ def main():
     table_name = 'Songs'
 
     # ODBC connection string
-    conn_str = 'DRIVER={ODBC Driver 17 for SQL Server};Server=tcp:kamogelo.database.windows.net,1433;Database=KamogeloTest;Uid=kamogelo.ramantsima;Pwd=Rehale&eria2;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;'
+    conn_str = 'DRIVER={ODBC Driver 17 for SQL Server};Server=tcp:kamogelo.database.windows.net,1433;Database=KamogeloTest;Uid='';Pwd='';Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;'
 
     # Load CSV data into SQL Server
     loader = CsvToSqlLoader(csv_file, table_name, conn_str)
